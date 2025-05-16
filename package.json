@@ -1,0 +1,17 @@
+{
+  "name": "vertical-farm-card",
+  "version": "0.1.0",
+  "description": "A Lovelace card for the Vertical Farm Home Assistant integration.",
+  "main": "src/vertical-farm-card.js",
+  "scripts": {
+    "build": "esbuild src/vertical-farm-card.js --bundle --minify --outfile=vertical-farm-card.js",
+    "dev": "esbuild src/vertical-farm-card.js --bundle --sourcemap --outfile=vertical-farm-card.js --watch",
+    "lint": "npx eslint src/vertical-farm-card.js"
+  },
+  "author": "eddie-rowe",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "esbuild": "^0.19.0",
+    "eslint": "^8.0.0"
+  }
+}
